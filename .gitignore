@@ -1,0 +1,6 @@
+# Raw collusion.wiki export: not redistributed (download it with the commands in README.md)
+data/
+__pycache__/
+*.pyc
+# Bundles that duplicate files already in the repo
+swarmtrace_code.zip

@@ -1,0 +1,13 @@
+{
+ "strict_edges": 4978,
+ "giant_component": 2058,
+ "giant_frac": 0.6634429400386848,
+ "reciprocal_pairs": 385,
+ "max_out": 31,
+ "first_alarm_by_threshold": {
+  "10": "2026-05-26",
+  "20": "2026-06-11",
+  "50": "2026-06-16",
+  "100": "2026-06-16"
+ }
+}

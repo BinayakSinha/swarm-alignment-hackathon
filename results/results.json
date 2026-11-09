@@ -1,0 +1,436 @@
+{
+ "n_revisions": 14591,
+ "n_pages": 4579,
+ "n_names": 3102,
+ "n_unnamed_revs": 899,
+ "graph": {
+  "n_nodes": 3102,
+  "n_edges_distinct": 7110,
+  "n_edge_events": 8871,
+  "n_isolated": 518,
+  "giant_component": 2462,
+  "giant_frac": 0.7936814958091554,
+  "reciprocal_pairs": 742,
+  "top_sources": [
+   [
+    "MapHelper",
+    75
+   ],
+   [
+    "ResearchHelper",
+    58
+   ],
+   [
+    "OpenAIResearchSec2028",
+    56
+   ],
+   [
+    "AgentRelent",
+    52
+   ],
+   [
+    "AgentSECCountyLinker99172",
+    40
+   ],
+   [
+    "AgentTestLearnXYZ",
+    40
+   ],
+   [
+    "OpenAIResearcher",
+    34
+   ],
+   [
+    "OurMassFinal",
+    34
+   ],
+   [
+    "AgentHelperTwo",
+    34
+   ],
+   [
+    "MassUpdater",
+    33
+   ]
+  ],
+  "max_out": 75,
+  "median_out": 2,
+  "share_names_built_on_by_10plus": 0.033849129593810444
+ },
+ "spread": [
+  {
+   "token": "api.usaspending.gov",
+   "n_adopters": 174,
+   "n_tested": 76,
+   "obs_exposed": 0.4605263157894737,
+   "null_mean": 0.5596315789473685,
+   "lift": 0.8229098090849242,
+   "p": 0.998003992015968,
+   "first": "2026-05-24T06:02:19+00:00",
+   "first_label": "FederalUserTest",
+   "role": "source",
+   "public_name": "api.usaspending.gov"
+  },
+  {
+   "token": "markdown.new",
+   "n_adopters": 433,
+   "n_tested": 277,
+   "obs_exposed": 0.7689530685920578,
+   "null_mean": 0.7459783393501804,
+   "lift": 1.0307981184304769,
+   "p": 0.09381237524950099,
+   "first": "2026-05-26T09:50:02+00:00",
+   "first_label": "OpenDataResearcher",
+   "role": "tool",
+   "public_name": "Tool-1"
+  },
+  {
+   "token": "pure.md",
+   "n_adopters": 197,
+   "n_tested": 142,
+   "obs_exposed": 0.7253521126760564,
+   "null_mean": 0.6602394366197183,
+   "lift": 1.0986197922221985,
+   "p": 0.005988023952095809,
+   "first": "2026-05-26T13:25:33+00:00",
+   "first_label": "ResearchVisitor",
+   "role": "tool",
+   "public_name": "Tool-2"
+  },
+  {
+   "token": "tinyurl.com",
+   "n_adopters": 78,
+   "n_tested": 55,
+   "obs_exposed": 0.5818181818181818,
+   "null_mean": 0.43683636363636363,
+   "lift": 1.331890452010322,
+   "p": 0.003992015968063872,
+   "first": "2026-05-26T16:16:00+00:00",
+   "first_label": "TestResearcher",
+   "role": "tool",
+   "public_name": "Tool-3"
+  },
+  {
+   "token": "api.datausa.io",
+   "n_adopters": 1043,
+   "n_tested": 491,
+   "obs_exposed": 0.5458248472505092,
+   "null_mean": 0.5795763747454176,
+   "lift": 0.9417651771783591,
+   "p": 0.9940119760479041,
+   "first": "2026-05-28T01:12:54+00:00",
+   "first_label": "DataResearchUser",
+   "role": "source",
+   "public_name": "api.datausa.io"
+  },
+  {
+   "token": "corsmirror.com",
+   "n_adopters": 71,
+   "n_tested": 43,
+   "obs_exposed": 0.6046511627906976,
+   "null_mean": 0.4997674418604651,
+   "lift": 1.2098650535132618,
+   "p": 0.029940119760479042,
+   "first": "2026-05-28T07:51:18+00:00",
+   "first_label": "ResearcherLibrary",
+   "role": "tool",
+   "public_name": "Tool-4"
+  },
+  {
+   "token": "allorigins.hexlet.app",
+   "n_adopters": 390,
+   "n_tested": 259,
+   "obs_exposed": 0.752895752895753,
+   "null_mean": 0.783119691119691,
+   "lift": 0.9614057230757096,
+   "p": 0.9620758483033932,
+   "first": "2026-05-28T13:03:06+00:00",
+   "first_label": "AgentCharlXra595",
+   "role": "tool",
+   "public_name": "Tool-5"
+  },
+  {
+   "token": "jqp.vercel.app",
+   "n_adopters": 722,
+   "n_tested": 423,
+   "obs_exposed": 0.735224586288416,
+   "null_mean": 0.7987848699763593,
+   "lift": 0.9204287836725996,
+   "p": 1.0,
+   "first": "2026-05-28T13:03:06+00:00",
+   "first_label": "AgentCharlXra595",
+   "role": "tool",
+   "public_name": "Tool-6"
+  },
+  {
+   "token": "proxymule.com",
+   "n_adopters": 78,
+   "n_tested": 49,
+   "obs_exposed": 0.5510204081632653,
+   "null_mean": 0.3815918367346939,
+   "lift": 1.4440047063857095,
+   "p": 0.001996007984031936,
+   "first": "2026-05-28T13:29:00+00:00",
+   "first_label": "ArchiveCitationHelperKZ",
+   "role": "tool",
+   "public_name": "Tool-7"
+  },
+  {
+   "token": "cors.bwa.workers.dev",
+   "n_adopters": 147,
+   "n_tested": 89,
+   "obs_exposed": 0.6067415730337079,
+   "null_mean": 0.5017303370786517,
+   "lift": 1.209298159179469,
+   "p": 0.003992015968063872,
+   "first": "2026-05-28T14:57:54+00:00",
+   "first_label": "AgentCatalogLibraryHelperM",
+   "role": "tool",
+   "public_name": "Tool-8"
+  },
+  {
+   "token": "md.succ.ai",
+   "n_adopters": 490,
+   "n_tested": 338,
+   "obs_exposed": 0.8017751479289941,
+   "null_mean": 0.8067751479289941,
+   "lift": 0.9938024863397997,
+   "p": 0.6766467065868264,
+   "first": "2026-05-29T22:28:50+00:00",
+   "first_label": "DataReferenceHelper",
+   "role": "tool",
+   "public_name": "Tool-9"
+  },
+  {
+   "token": "r.jina.ai",
+   "n_adopters": 282,
+   "n_tested": 207,
+   "obs_exposed": 0.7198067632850241,
+   "null_mean": 0.7212367149758454,
+   "lift": 0.998017361483228,
+   "p": 0.5828343313373253,
+   "first": "2026-06-01T12:59:39+00:00",
+   "first_label": "WikiAgentMN",
+   "role": "tool",
+   "public_name": "Tool-10"
+  },
+  {
+   "token": "md.dhr.wtf",
+   "n_adopters": 73,
+   "n_tested": 66,
+   "obs_exposed": 0.9393939393939394,
+   "null_mean": 0.675030303030303,
+   "lift": 1.3916322499551088,
+   "p": 0.001996007984031936,
+   "first": "2026-06-01T15:00:48+00:00",
+   "first_label": "AgentClarkResearch88912",
+   "role": "tool",
+   "public_name": "Tool-11"
+  },
+  {
+   "token": "datausa.io",
+   "n_adopters": 119,
+   "n_tested": 85,
+   "obs_exposed": 0.6352941176470588,
+   "null_mean": 0.4227529411764706,
+   "lift": 1.5027550509266987,
+   "p": 0.001996007984031936,
+   "first": "2026-06-07T05:31:42+00:00",
+   "first_label": "DataQueryTest",
+   "role": "source",
+   "public_name": "datausa.io"
+  },
+  {
+   "token": "api.allorigins.win",
+   "n_adopters": 64,
+   "n_tested": 53,
+   "obs_exposed": 0.7169811320754716,
+   "null_mean": 0.6968679245283018,
+   "lift": 1.0288622949044242,
+   "p": 0.3912175648702595,
+   "first": "2026-06-11T14:34:35+00:00",
+   "first_label": "AgentRootArchiveWWI4008",
+   "role": "tool",
+   "public_name": "Tool-12"
+  },
+  {
+   "token": "api-la.datausa.io",
+   "n_adopters": 187,
+   "n_tested": 129,
+   "obs_exposed": 0.5426356589147286,
+   "null_mean": 0.4336589147286822,
+   "lift": 1.2512959851274534,
+   "p": 0.001996007984031936,
+   "first": "2026-06-16T07:31:47+00:00",
+   "first_label": "ResearchHelper",
+   "role": "source",
+   "public_name": "api-la.datausa.io"
+  },
+  {
+   "token": "api.census.gov",
+   "n_adopters": 48,
+   "n_tested": 35,
+   "obs_exposed": 0.6571428571428571,
+   "null_mean": 0.4505142857142857,
+   "lift": 1.458650431253171,
+   "p": 0.001996007984031936,
+   "first": "2026-06-16T21:24:10+00:00",
+   "first_label": "GroceryAgentDec09X",
+   "role": "source",
+   "public_name": "api.census.gov"
+  },
+  {
+   "token": "api.counterapi.dev",
+   "n_adopters": 217,
+   "n_tested": 158,
+   "obs_exposed": 0.8037974683544303,
+   "null_mean": 0.4400506329113924,
+   "lift": 1.826602232194224,
+   "p": 0.001996007984031936,
+   "first": "2026-06-16T22:01:54+00:00",
+   "first_label": "Apr19SectorRelay",
+   "role": "tool",
+   "public_name": "Tool-13"
+  },
+  {
+   "token": "sec.gov",
+   "n_adopters": 674,
+   "n_tested": 401,
+   "obs_exposed": 0.743142144638404,
+   "null_mean": 0.823576059850374,
+   "lift": 0.9023357779163917,
+   "p": 1.0,
+   "first": "2026-06-18T14:54:23+00:00",
+   "first_label": "DataResearchHelperX",
+   "role": "source",
+   "public_name": "sec.gov"
+  },
+  {
+   "token": "investor.gov",
+   "n_adopters": 381,
+   "n_tested": 267,
+   "obs_exposed": 0.8127340823970037,
+   "null_mean": 0.7665168539325843,
+   "lift": 1.0602951236196618,
+   "p": 0.00998003992015968,
+   "first": "2026-06-18T16:46:55+00:00",
+   "first_label": "AgentMass007",
+   "role": "source",
+   "public_name": "investor.gov"
+  },
+  {
+   "token": "webcrawlerapi.com",
+   "n_adopters": 80,
+   "n_tested": 73,
+   "obs_exposed": 0.9726027397260274,
+   "null_mean": 0.7084109589041095,
+   "lift": 1.3729357620760336,
+   "p": 0.001996007984031936,
+   "first": "2026-06-18T19:45:20+00:00",
+   "first_label": "BudgetResearcher",
+   "role": "tool",
+   "public_name": "Tool-14"
+  }
+ ],
+ "spread_validation": {
+  "contagion": {
+   "n": 44,
+   "share_p<0.05": 0.9772727272727273,
+   "median_lift": 1.338000791540538
+  },
+  "independent": {
+   "n": 43,
+   "share_p<0.05": 0.023255813953488372,
+   "median_lift": 1.0095547142599604
+  }
+ },
+ "early_warning": {
+  "rule": "fire when one day's build-on edges join >= 20 agent names into one connected group",
+  "first_alarm": "2026-05-26",
+  "alarm_days": [
+   "2026-05-26",
+   "2026-05-29",
+   "2026-06-11",
+   "2026-06-16",
+   "2026-06-17",
+   "2026-06-18",
+   "2026-06-19",
+   "2026-06-20",
+   "2026-06-21",
+   "2026-06-22"
+  ],
+  "edge_spike_alarm_first": "2026-05-24",
+  "lead_days_vs_staff_visit": 26,
+  "revs_before_alarm": 35,
+  "revs_between_alarm_and_staff_visit": 12803,
+  "share_revs_after_alarm_before_visit": 0.8774587074223836,
+  "names_active_before_alarm": 22
+ },
+ "identity": {
+  "random/combined": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.3917525773195876,
+   "recall@5": 0.5979381443298969,
+   "recall@10": 0.7010309278350515,
+   "median_rank": 4
+  },
+  "random/style": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.23711340206185566,
+   "recall@5": 0.4329896907216495,
+   "recall@10": 0.5051546391752577,
+   "median_rank": 9
+  },
+  "random/ip16": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.041237113402061855,
+   "recall@5": 0.07216494845360824,
+   "recall@10": 0.10309278350515463,
+   "median_rank": 193
+  },
+  "random/hours": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.36082474226804123,
+   "recall@5": 0.5773195876288659,
+   "recall@10": 0.711340206185567,
+   "median_rank": 4
+  },
+  "temporal/combined": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.09278350515463918,
+   "recall@5": 0.14432989690721648,
+   "recall@10": 0.23711340206185566,
+   "median_rank": 43
+  },
+  "temporal/style": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.1134020618556701,
+   "recall@5": 0.16494845360824742,
+   "recall@10": 0.21649484536082475,
+   "median_rank": 60
+  },
+  "temporal/ip16": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.020618556701030927,
+   "recall@5": 0.041237113402061855,
+   "recall@10": 0.061855670103092786,
+   "median_rank": 219
+  },
+  "temporal/hours": {
+   "n_test": 97,
+   "n_candidates": 722,
+   "recall@1": 0.09278350515463918,
+   "recall@5": 0.13402061855670103,
+   "recall@10": 0.16494845360824742,
+   "median_rank": 96
+  },
+  "chance_recall@1": 0.0013831258644536654
+ }
+}
